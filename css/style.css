@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-image: url(../img/sfondo-pagina.png);
+}
+
 .clearfix::after{
   content: "";
   clear: both;
@@ -24,7 +28,7 @@
 }
 
 header{
-  height: 200px;
+  height: 600px;
   background-color: yellow;
 }
 
