@@ -20,8 +20,8 @@ body{
   float: left;
 }
 
-.color-white{
-  color: #fff;
+.bg-color-white{
+  background-color: #fff;
 }
 
 /*END UTILITIES*/
@@ -67,6 +67,10 @@ header{
   width: 100%;
 }
 
+h1{
+  color: #fff;
+}
+
 
 
 /*END UPPER HEADER*/
@@ -91,7 +95,6 @@ header{
   color: #fff;
 }
 
-
 /*END LOWER HEADER*/
 
 
@@ -104,7 +107,7 @@ main{
 .blocco-sinistro{
   width: 25%;
   height: 300px;
-  background-color: #a08bb0;
+
 }
 
 .container-blocco-centrale{
@@ -117,7 +120,7 @@ main{
 .blocco-centrale{
   width: 100%;
   height: 100%;
-  background-color: purple;
+  
 }
 
 .container-blocchi-destri{
@@ -129,7 +132,6 @@ main{
 .blocco-superiore-destro, .blocco-inferiore-destro{
   width: 100%;
   height: 50%;
-  background-color: #a08bb0;
   margin-bottom: 15px;
 }
 
