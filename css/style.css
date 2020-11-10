@@ -20,6 +20,10 @@ body{
   float: left;
 }
 
+.color-white{
+  color: #fff;
+}
+
 /*END UTILITIES*/
 
 .container{
@@ -31,15 +35,15 @@ body{
 /*HEADER*/
 
 header{
-  height: 600px;
-  background-color: yellow;
+  height: 590px;
   text-align: center;
 }
 
+/*UPPER HEADER*/
 
 
 .upper-header{
-  height: 500px;
+  height: 520px;
   background-color: #fff;
   padding: 10px;
   position: relative;
@@ -63,9 +67,30 @@ header{
   width: 100%;
 }
 
-header h1{
-  color: #fff;
+
+
+/*END UPPER HEADER*/
+
+/*LOWER HEADER*/
+.lower-header{
+  height: 70px;
+  background-color: #606068;
+
 }
+
+.lower-header ul li{
+  list-style: none;
+  line-height: 70px;
+  text-align: center;
+  display: inline-block;
+  padding-right: 20px;
+
+
+}
+
+
+/*END LOWER HEADER*/
+
 
 /*END HEADER*/
 
