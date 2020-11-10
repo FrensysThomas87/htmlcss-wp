@@ -8,6 +8,7 @@
 
 body{
   background-image: url(../img/sfondo-pagina.png);
+  font-family: 'Lato', sans-serif;
 }
 
 .clearfix::after{
@@ -16,28 +17,34 @@ body{
   display: table;
 }
 
+
+
+.colore-grandezza-intestazioni-box{ /*STILIZZA I TITOLI DEI VARI BOX*/
+  color:#222;
+  font-size: 40px;
+}
+
+.stilizzazione-testo-box{ /*STILIZZA IL TESTO DEI BOX*/
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 35px;
+
+}
+
+
 .float-l{
   float: left;
+}
+
+.b-radius-5px{
+  border-radius: 5px;
 }
 
 .bg-color-white{
   background-color: #fff;
 }
 
-.colore-grandezza-intestazioni-box{
-  color:#222;
-  font-size: 40px;
-}
 
-.stilizzazione-testo-box{
-  margin-top: 40px;
-  font-size: 20px;
-  line-height: 35px;
-}
-
-.b-radius-5px{
-  border-radius: 5px;
-}
 
 /*END UTILITIES*/
 
@@ -116,14 +123,15 @@ h1{
 /*END HEADER*/
 
 main{
-  margin: 10px 0;
+  margin: 10px 0 0;
 }
 
-/*SECTION ORGANIC THEME*/
+/*SECTION LEFT*/
 
 .blocco-sinistro{
   width: 25%;
-  height: 570px;
+  height: 650px;
+
 
 }
 
@@ -148,10 +156,8 @@ main{
 }
 
 .link-container{
-  height: 470px;
+  height: 550px;
   padding: 5px;
-
-
 }
 
 .link-container div{
@@ -162,9 +168,10 @@ main{
   color:green;
   text-decoration: none;
   font-size: 25px;
+
 }
 
-/*END SECTION ORGANIC THEME*/
+/*END SECTION LEFT*/
 
 /*BLOCCO CENTRALE*/
 
@@ -189,7 +196,7 @@ main{
 
 .container-blocchi-destri{
   width: 25%;
-  height: 1080px;
+  height: 1170px;
   margin-bottom: 45px;
 
 }
@@ -202,11 +209,16 @@ main{
 
 }
 
+.container-blocchi-destri:last-child .ultimo-blocco-inferiore-destro{
+  margin-bottom: 0;
+}
+
 /*END BLOCCHI DESTRI*/
 
 /*FOOTER*/
 
 footer{
+  margin-top: 30px;
   height: 200px;
   background-color: lightblue;
   text-align: center;
@@ -244,7 +256,7 @@ footer div nav ul li{
 footer div nav ul li img{
   width: 50px;
   height: 50px;
-  
+
 }
 
 footer div nav ul li:nth-child(2){
