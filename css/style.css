@@ -84,8 +84,11 @@ header{
   text-align: center;
   display: inline-block;
   padding-right: 20px;
+}
 
-
+.lower-header ul li a{
+  text-decoration: none;
+  color: #fff;
 }
 
 
