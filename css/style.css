@@ -24,6 +24,11 @@ body{
   background-color: #fff;
 }
 
+.colore-grandezza-intestazioni-box{
+  color:#222;
+  font-size: 40px;
+}
+
 /*END UTILITIES*/
 
 .container{
@@ -108,7 +113,7 @@ main{
 
 .blocco-sinistro{
   width: 25%;
-  height: 300px;
+  height: 400px;
 
 }
 
@@ -128,8 +133,19 @@ main{
 }
 
 .title-container h2{
-  font-size: 40px;
   margin-left: 10px;
+}
+
+.link-container{
+  height: 300px;
+  background-color: black;
+}
+
+.link-container a{
+  color:green;
+  text-decoration: none;
+  font-size: 25px;
+  
 }
 
 
