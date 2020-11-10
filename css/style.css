@@ -29,6 +29,16 @@ body{
   font-size: 40px;
 }
 
+.stilizzazione-testo-box{
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.b-radius-5px{
+  border-radius: 5px;
+}
+
 /*END UTILITIES*/
 
 .container{
@@ -171,12 +181,7 @@ main{
 
 }
 
-.container-blocco-centrale .blocco-centrale p{
-  margin-top: 40px;
-  font-size: 20px;
-  line-height: 35px;
 
-}
 
 /*END BLOCCO CENTRALE*/
 
@@ -184,16 +189,17 @@ main{
 
 .container-blocchi-destri{
   width: 25%;
-  height: 1000px;
+  height: 1080px;
   margin-bottom: 45px;
 
 }
 
-.blocco-superiore-destro, .blocco-inferiore-destro, .ultimo-blocco{
+.blocco-superiore-destro, .blocco-inferiore-destro, .ultimo-blocco-inferiore-destro{
   width: 100%;
   height: 33%;
   margin-bottom: 15px;
   padding: 30px;
+
 }
 
 /*END BLOCCHI DESTRI*/
