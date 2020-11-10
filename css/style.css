@@ -160,13 +160,12 @@ main{
 
 .container-blocco-centrale{
   width: 50%;
-  height:550px;
+  height:450px;
   padding: 0 15px;
 
 }
 
 .blocco-centrale{
-  width: 100%;
   height: 100%;
   padding: 25px;
 
