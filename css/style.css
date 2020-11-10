@@ -104,11 +104,38 @@ main{
   margin: 10px 0;
 }
 
+/*SECTION ORGANIC THEME*/
+
 .blocco-sinistro{
   width: 25%;
   height: 300px;
 
 }
+
+.org-theme-title-container{
+  width: 90%;
+  height: 100px;
+  background-color: red;
+}
+
+.img-wifi-container{
+  width: 40px;
+  height: 40px;
+}
+
+.img-wifi-container img{
+  width: 100%;
+}
+
+.title-container h2{
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+
+
+
+/*END SECTION ORGANIC THEME*/
 
 .container-blocco-centrale{
   width: 50%;
@@ -120,7 +147,7 @@ main{
 .blocco-centrale{
   width: 100%;
   height: 100%;
-  
+
 }
 
 .container-blocchi-destri{
