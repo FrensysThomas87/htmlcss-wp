@@ -211,7 +211,7 @@ footer{
   background-color: lightblue;
   text-align: center;
   padding: 0px 4px;
-
+  color: #fff;
 
 }
 
@@ -225,24 +225,37 @@ footer h3{
 footer div{
 
   height: 50px;
-  background-color: red;
   margin-top:55px;
   padding: 0 60px;
+  position:relative;
 
 
 }
 
-.icon{
+footer div nav ul li{
   width: 50px;
   height: 50px;
-  background-color: #000;
   float: left;
-
+  list-style: none;
+  padding-left: 100px;
 
 }
 
+footer div nav ul li img{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
 
+footer div nav ul li:nth-child(2){
+  position: absolute;
+  left:500px;;
 
+}
 
+footer div nav ul li:nth-child(3){
+  position: absolute;
+  right: 200px;
+}
 
 /*END FOOTER*/
