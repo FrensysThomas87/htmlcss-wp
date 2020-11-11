@@ -196,8 +196,8 @@ main{
 
 .container-blocchi-destri{
   width: 25%;
-  height: calc(33% * 3 + 100);
   margin-bottom: 80px;
+  background-color: black;
 
 
 }
